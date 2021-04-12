@@ -13,6 +13,7 @@ flexDirection:'column',
 alignItems:'center',
 justifyContent: 'space-between',
 width:'277px',
+
 }
 const footerStyle = {
     display:'flex',
@@ -20,9 +21,10 @@ const footerStyle = {
     alignItems:'flex-start',
     justifyContent: 'space-around', 
     position: 'absolute',
-    top:'58.4%',
-    bottom:'18.79%',
+    top:600,
+    // bottom:'18.79%',
     width:'100%',
+    flexWrap:'wrap',
 }
 const headerStyle ={
     position: 'absolute',

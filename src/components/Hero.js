@@ -19,7 +19,7 @@ function Hero(){
         justifyContent:'space-around',
     }
     const signUpStyle={
-        width: '45%', 
+        width: '25%', 
         fontFamily: 'Arimo',
         fontStyle: 'normal',
         fontWeight: 'bold',
@@ -31,7 +31,7 @@ function Hero(){
         justifyContent: 'space-around',
         textAlign: 'center',
         color: '#FFFFFF',
-        padding: '40px',
+        padding: '20px',
         
     }
 
