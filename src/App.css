@@ -34,7 +34,7 @@
 }
 
 .expenses_text {
-  position: absolute;
+  /* position: absolute; */
   width: 926px;
   height: 148px;
   top: 3.5em;
@@ -61,15 +61,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40%;
+  height: 40%;
+  margin: auto;
 }
 
 .inputcard {
-  position: absolute;
-  width: 461px;
+  /* position: absolute; */
+  /* width: 461px;
   height: 555px;
   top: 57%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
   background: #f8f8f8;
   opacity: 0.6;
   border: 1px solid #1492b8;
@@ -82,10 +93,10 @@
 }
 
 .connect_bank {
-  position: absolute;
+  /* position: absolute; */
   width: 200px;
   height: 40px;
-  top: 344px;
+  margin: 25px auto;
   background: #ffffff;
   border-radius: 8px;
   border: 1px solid;
@@ -94,6 +105,25 @@
     linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
+input,
+label {
+  display: block;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  margin: 0 auto 50px auto;
+}
+
+label::after,
+input::after {
+  content: "\a";
+  white-space: pre;
+}
+/* 
 .rent_label {
   position: absolute;
   height: 16px;
@@ -101,4 +131,4 @@
   right: -230px;
   top: 50px;
   z-index: 2;
-}
+} */

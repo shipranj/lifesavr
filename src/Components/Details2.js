@@ -23,22 +23,21 @@ class Details2 extends Component {
           </text>
         </div>
         <div className="inputcard_container">
-          <div className="inputcard"></div>
-          <button className="connect_bank">Connect Your Bank Account</button>
-          <form>
-            <label className="rent_label">
-              Rent or Mortgage
+          <div className="inputcard">
+            <button className="connect_bank">Connect Your Bank Account</button>
+            <form>
+              <label className="rent_label" for="rent">
+                Rent or Mortgage
+              </label>
               <input type="text" placeholder="$"></input>
-            </label>
-            <label>
-              Credit Card Payments
+
+              <label>Credit Card Payments</label>
               <input type="text" placeholder="$"></input>
-            </label>
-            <label>
-              Car Payment
+
+              <label>Car Payment</label>
               <input type="text" placeholder="$"></input>
-            </label>
-          </form>
+            </form>
+          </div>
         </div>
       </>
     );
